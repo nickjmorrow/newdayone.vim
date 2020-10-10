@@ -29,7 +29,7 @@ if &cp || (exists('g:loaded_new_dayone_vim') && g:loaded_new_dayone_vim)
 endif
 let g:loaded_new_dayone_vim = 1
 
-if !executable('dayone')
+if !executable('dayone2')
   echohl ErrorMsg | echomsg "NewDayOne.vim: require 'dayone' command. 'http://dayoneapp.com/tools/'" | echohl None
   finish
 endif
